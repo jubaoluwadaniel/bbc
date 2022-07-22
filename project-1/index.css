@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none
+}
+
+.nav{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-links{
+    display: flex;
+    color: rgb(65, 63, 63);
+}
+
+.nav-links li{
+    padding: 0.6rem;
+}
+
+.right_nav img{
+    width: 50px;
+}
+
+.sect{
+    display: flex;
+    padding: 2rem;
+}
+
+.left{
+    width: 50%;
+    padding: 2rem;
+}
+
+.img-head img{
+    width:  400px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.img-body img{
+    height: 80px;
+    width: 95px;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.right{
+    padding: 2rem;
+    width: 60%;
+}
+
+.span-1{
+    color: orange;
+}
+
+.right h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right h1{
+    margin-top: 1rem;
+}
+
+.right p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.amount{
+    display: flex;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.money{
+    margin-right: 1rem;
+}
+
+.bbtn{
+    color: rgb(255, 94, 0);
+    background-color: rgb(255, 231, 188);
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+.span-2{
+    font-size: 25px;
+}
+
+.span-3{
+    color: #ccc;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.btn{
+    padding-top: 15px;
+}
+
+.btn button{
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    width: 12rem;
+}
+
+.btn-1{
+    background-color: rgb(248, 247, 247);
+}
+
+
+.btn-2{
+    background-color: orange;
+    color: white;
+}
